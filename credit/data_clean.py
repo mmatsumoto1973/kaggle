@@ -129,7 +129,7 @@ train_df.fillna({'AMT_REQ_CREDIT_BUREAU_YEAR': train_df['AMT_REQ_CREDIT_BUREAU_Y
 
 # 以降はカラム間の相関関係を出力するための処理のため、取り込むかどうかの判断が必要
 
-# 文字列から数値に変換  
+# 文字列から数値に変換
 #%%
 from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
